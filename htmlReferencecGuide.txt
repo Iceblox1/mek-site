@@ -1,0 +1,12 @@
+<!TEXT>
+
+<head> </head> is the text that appears on the website banner above the search bar
+<body> </body> is the body of the page that sits in the html site
+
+<h[1, 2, 3, 4, 5, 6]> </h[1, 2, 3, 4, 5, 6] - the header tags
+<p> </p> - the default paragraph text
+<pre> </pre> - a preformatted text element which takes into account spaces and line breaks
+
+<br> is a line break
+<hr> is a visible horizontal line break
+
