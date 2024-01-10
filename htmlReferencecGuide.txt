@@ -1,24 +1,59 @@
-<!TEXT> - A comment
+<!-- comment --> - A comment
 
 <head> </head> - The text that appears on the website banner above the search bar
 <body> </body> - The body of the page that sits in the html site
 
-<h[1, 2, 3, 4, 5, 6]> </h[1, 2, 3, 4, 5, 6] - The header tags
+<h[1, 2, 3, 4, 5, 6]> </h[1, 2, ...] - The header tags
 <p> </p> - The default paragraph text
+    style="background-image: url("img.jpg");" - Background image for text
+    background-repeat: no-repeat; - Disables the repeating of the image if image is smaller than HTML element
+    background-size: cover; - Background image will span to cover the entire element (without stretching)
+        background-size: 100% 100% - Stretches the image to cover the entire element
+        
 <pre> </pre> - A preformatted text element which takes into account spaces and line breaks
-
     title="value" - mouse hover tooltip
 
-<a href="hyperlink"> </a> - 'hyperlink' is the link to the site and the text is what the link is displayed as.
+<a href="hyperlink" target = "value"> </a> - 'hyperlink' refers to the link
+    _blank - opens the hyperlink in a new tab
+
 <img src="image.jpg"> 
     width="value" height="value" alt="value" - Alternate text for the image
+    style="width:number(px);height:number(px);
+    style="float:value(left/right) - Image will float to the left or right of text. Make sure to put image within the <p>
+    usemap="#name" - defines the map to be used within the image
+        <map name="name">
+            <area shape="shape" coords="num1,num2,num3,num4" alt="areaName" href="hyperlink"> - Defines a cliclable area within an image that opens a link
+                shape="rect, circle, poly"
+                rectCoords - first two numbers is the top right of the rect and last two is the bottom right 
+                circleCoords - first two numbers specify the center of the circle, last number is the radius
+
 
 <br> - A line break
 <hr> - A visible horizontal line break
 
+CSS STYLING
 <tagname style="property:value;">
-    style = background-color, color (text color), font-family:value (fonts), font-size:value(%), text-align:value
+    background-color:color 
+    color:text-color
+    font-family:font 
+    font-size:size(%)
+    text-align:value - (left, center, right)
+    border:number(px)
+    padding:number(px) - contained within the border
+    margin:number(px) - contained outside of the border
+    
 
 
 FORMATING 
-    
+    <b> </b> - Bold text
+    <strong> </strong> - Bold text that screen readers will emphasize when read aloud
+    <i> </i> - Italic text
+    <em> </em> - Italic text that screen readers will emphasize when read aloud
+    <mark> </mark> - Highlighted text
+    <small> </small> - Smaller text
+    <del> </del> - Strikethrough 
+    <ins> </ins> - Underlined text
+    <sub> </ins> - Subscript
+    <sup> </sup> - Superscript
+    <blockquote> </blockquote> - Indented text
+
