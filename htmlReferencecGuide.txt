@@ -3,45 +3,49 @@
 <head> </head> - The text that appears on the website banner above the search bar
 <body> </body> - The body of the page that sits in the html site
 
-<h[1, 2, 3, 4, 5, 6]> </h[1, 2, ...] - The header tags
-<p> </p> - The default paragraph text
-    style="background-image: url("img.jpg");" - Background image for text
-    background-repeat: no-repeat; - Disables the repeating of the image if image is smaller than HTML element
-    background-size: cover; - Background image will span to cover the entire element (without stretching)
-        background-size: 100% 100% - Stretches the image to cover the entire element
-        
-<pre> </pre> - A preformatted text element which takes into account spaces and line breaks
-    title="value" - mouse hover tooltip
+TEXT
+    <h[1, 2, 3, 4, 5, 6]> </h[1, 2, ...] - The header tags
+    <p> </p> - The default paragraph text
+        style="background-image: url("img.jpg");" - Background image for text
+        background-repeat: no-repeat; - Disables the repeating of the image if image is smaller than HTML element
+        background-size: cover; - Background image will span to cover the entire element (without stretching)
+            background-size: 100% 100% - Stretches the image to cover the entire element
 
-<a href="hyperlink" target = "value"> </a> - 'hyperlink' refers to the link
-    _blank - opens the hyperlink in a new tab
-
-<img src="image.jpg"> 
-    width="value" height="value" alt="value" - Alternate text for the image
-    style="width:number(px);height:number(px);
-    style="float:value(left/right) - Image will float to the left or right of text. Make sure to put image within the <p>
-    usemap="#name" - defines the map to be used within the image
-        <map name="name">
-            <area shape="shape" coords="num1,num2,num3,num4" alt="areaName" href="hyperlink"> - Defines a cliclable area within an image that opens a link
-                shape="rect, circle, poly"
-                rectCoords - first two numbers is the top right of the rect and last two is the bottom right 
-                circleCoords - first two numbers specify the center of the circle, last number is the radius
+    <pre> </pre> - A preformatted text element which takes into account spaces and line breaks
+        title="value" - mouse hover tooltip
 
 
-<br> - A line break
-<hr> - A visible horizontal line break
+LINK/IMAGES
+    <a href="hyperlink" target = "value"> </a> - 'hyperlink' refers to the link
+        _blank - opens the hyperlink in a new tab
+
+    <img src="image.jpg"> 
+        width="value" height="value" alt="value" - Alternate text for the image
+        style="width:number(px);height:number(px);
+        style="float:value(left/right) - Image will float to the left or right of text. Make sure to put image within the <p>
+        usemap="#name" - defines the map to be used within the image
+            <map name="name">
+                <area shape="shape" coords="num1,num2,num3,num4" alt="areaName" href="hyperlink"> - Defines a cliclable area within an image that opens a link
+                    shape="rect, circle, poly"
+                    rectCoords - first two numbers is the top right of the rect and last two is the bottom right 
+                    circleCoords - first two numbers specify the center of the circle, last number is the radius
+
+
+LINE BREAK
+    <br> - A line break
+    <hr> - A visible horizontal line break
+
 
 CSS STYLING
-<tagname style="property:value;">
-    background-color:color 
-    color:text-color
-    font-family:font 
-    font-size:size(%)
-    text-align:value - (left, center, right)
-    border:number(px)
-    padding:number(px) - contained within the border
-    margin:number(px) - contained outside of the border
-    
+    <tagname style="property:value;">
+        background-color:color 
+        color:text-color
+        font-family:font 
+        font-size:size(%)
+        text-align:value - (left, center, right)
+        border:number(px)
+        padding:number(px) - contained within the border
+        margin:number(px) - contained outside of the border
 
 
 FORMATING 
@@ -57,3 +61,23 @@ FORMATING
     <sup> </sup> - Superscript
     <blockquote> </blockquote> - Indented text
 
+
+TABLES
+    <th> </th> - Table headers
+        colspan="num" - Sets the amount of columns that the header spans over
+    <tr> </tr> - Table row
+    <td> </td> - Table column/cell
+TABLE BORDER
+    table, th, td {border: 1px solid black;}
+        {border-collapse: collapse} - Remove double border
+    
+BORDERS
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    border-color:"value"
