@@ -3,16 +3,32 @@
 <head> </head> - The text that appears on the website banner above the search bar
 <body> </body> - The body of the page that sits in the html site
 
-TEXT
+TEXT ELEMENTS
     <h[1, 2, 3, 4, 5, 6]> </h[1, 2, ...] - The header tags
     <p> </p> - The default paragraph text
         style="background-image: url("img.jpg");" - Background image for text
         background-repeat: no-repeat; - Disables the repeating of the image if image is smaller than HTML element
         background-size: cover; - Background image will span to cover the entire element (without stretching)
             background-size: 100% 100% - Stretches the image to cover the entire element
-
+    
+    <li> </li> - Bulleted List
+        <ol> </ol> - Marks each list item with numbers
+        <dl> </dl> - List of terms with description
+            <dt> </dt> - Term name
+            <dd> </dd> Term description
+        <ul style="list-style-stype:value"> </ul> - Unordered list
+            circle
+            square
+    
     <pre> </pre> - A preformatted text element which takes into account spaces and line breaks
         title="value" - mouse hover tooltip
+
+    <div> </div> - Block-level element
+        { 
+        margin:auto - Center align
+        display: inline-block; - Side by Side (instead of on top of each other)
+        } 
+    <span> </span> - Inline element
 
 
 LINK/IMAGES
