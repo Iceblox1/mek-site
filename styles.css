@@ -16,13 +16,13 @@ p {
 
 .header {
     background-color: rgb(30, 40, 45);
-    padding: 10px;
+    padding: 0px;
     margin: 2px;
     width: 100%;
 }
 
 .button {
     display: inline-block;
-    padding: 15px;
+    padding: 0px;
     width: 250px;
 }
