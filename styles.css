@@ -14,15 +14,39 @@ p {
     color:rgb(60, 185, 160);
 }
 
-.header {
-    background-color: rgb(30, 40, 45);
+nav ul {
+    background-color: rgb(70, 60, 80);
     padding: 0px;
-    margin: 2px;
-    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+nav a:hover {
+    color:rgb(100, 200, 200)
 }
 
-.button {
-    display: inline-block;
-    padding: 0px;
-    width: 250px;
+nav a:active {
+    color:rgb(200, 255, 255)
+}
+
+a:visited {
+    color: rgb(20, 20, 50)
+}
+
+nav li {
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    float: left;
+    list-style: none;
+}
+.header :hover{
+    background-color: black;
+}
+
+.sub {
+    font-size: small;
+    color: rgb(60, 185, 160);
+    text-align: right;
 }
