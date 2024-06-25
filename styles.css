@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(70, 210, 210)
+    color: rgb(70, 210, 210);
 }
 
 p {
@@ -20,18 +20,41 @@ nav ul {
     margin: 0px;
     overflow: hidden;
 }
+
+
+
+nav a {
+    color: rgb(100, 200, 200);
+
+}
 nav a:hover {
-    color:rgb(100, 200, 200)
+    color:rgb(100, 200, 200);
 }
 
 nav a:active {
-    color:rgb(200, 255, 255)
+    color:rgb(200, 255, 255);
 }
+
+
+
+links a {
+    color: rgb(100, 200, 200);
+    text-decoration: none;
+
+} 
+
+links a:hover {
+    color: rgb(100, 200, 200);
+}
+
+links a:active {
+    color: rgb(200, 255, 255);
+}
+
 
 a:visited {
-    color: rgb(85, 85, 220)
+    color: rgb(85, 85, 220);
 }
-
 nav li {
     display: block;
     text-align: center;
@@ -41,7 +64,8 @@ nav li {
     float: left;
     list-style: none;
 }
-.header :hover{
+
+.header :hover {
     background-color: black;
 }
 
