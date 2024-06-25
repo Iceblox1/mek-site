@@ -15,7 +15,7 @@ p {
 }
 
 nav ul {
-    background-color: rgb(70, 60, 80);
+    background-color: rgb(40, 40, 40);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -29,7 +29,7 @@ nav a:active {
 }
 
 a:visited {
-    color: rgb(20, 20, 50)
+    color: rgb(85, 85, 220)
 }
 
 nav li {
