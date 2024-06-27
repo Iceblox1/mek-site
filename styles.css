@@ -25,36 +25,36 @@ nav ul {
 
 nav a {
     color: rgb(100, 200, 200);
+    transition: 0.15s;
 
 }
 nav a:hover {
     color:rgb(100, 200, 200);
+    transform-style: scale(1.5)
 }
-
-nav a:active {
-    color:rgb(200, 255, 255);
-}
-
-
-
-links a {
-    color: rgb(100, 200, 200);
-    text-decoration: none;
-
-} 
-
-links a:hover {
-    color: rgb(100, 200, 200);
-}
-
-links a:active {
-    color: rgb(200, 255, 255);
-}
-
 
 a:visited {
     color: rgb(85, 85, 220);
 }
+
+section  a {
+    color: rgb(100, 200, 200);
+    text-decoration: none;
+    transition: 0.15s;
+
+} 
+
+section a:hover {
+    color: rgb(100, 200, 200);
+    transform: scale(1.5);
+}
+
+section a:active {
+    color: rgb(200, 255, 255);
+}
+
+
+
 nav li {
     display: block;
     text-align: center;
