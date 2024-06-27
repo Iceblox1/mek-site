@@ -29,7 +29,7 @@ nav a {
 }
 nav a:hover {
     color:rgb(100, 200, 200);
-    transform-style: scale(1.5)
+    transform: scale(1.5);
 }
 
 a:visited {
@@ -74,9 +74,14 @@ nav li {
     text-align: right;
 }
 
+.socials {
+    background-color: rgb(50, 50, 50);
+}
+
 .socialLinks {
     text-align: center;
-    margin-left: 350px;
+    margin-left: 60%;
+    padding: 2px;
     font-weight: bold;
     text-decoration: none;
     border: 1px solid black;
@@ -86,6 +91,10 @@ nav li {
 
 .socialLinks:hover {
     background-color: black;
-    transform: scale(1.5);
+    transform: scale(1.3);
     transition: 0.15s;
+}
+
+.linkText {
+    
 }
