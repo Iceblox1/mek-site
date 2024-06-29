@@ -23,33 +23,22 @@
     </nav>
     <hr> <!-- Homepage content consisting of my socials (yt, twitch, git, etc...) -->
 
-    <section=class="socials">
-        <h2>SOCIALS</h2>
+        <section = class="socials">
+            <p>SOCIALS</p>
+            <div class="linkText">
+                <p> Check out my stash of youtube videos to see all of my stream highlights organized in one place! </p>
+                <div class="socialLinks">
+                    <a href="https://www.youtube.com/channel/UCfu9WwjhiTKPWhfN3QetCxw">Youtube</a>
+                </div>  
+            </div>
+            <div class="linkText">
+                <p> Follow me on twitch to catch me streaming my games live! </p>
+                <div class="socialLinks">
+                    <a href="https://www.twitch.tv/Iceblox11">Twitch</a>
+                </div>
+            </div>
+        </section>
 
-        <div>
-            <p> Check out my youtube videos to see all of my stream highlights! </p>
-            <div class="socialLinks"><a href="https://www.youtube.com/channel/UCfu9WwjhiTKPWhfN3QetCxw">Youtube</a>
-            </div>
-            <p> Follow me on twitch to watch me stream my games live! </p>
-        </div>
-        <div">
-            <div class="socialLinks">
-                <!-- The code below is taken from https://dev.twitch.tv/docs/embed/everything-->
-                <!-- Add a placeholder for the Twitch embed -->
-                <div id="twitch-embed"></div>
-                <!-- Load the Twitch embed JavaScript file -->
-                <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-                <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                        width: 800,
-                        height: 400,
-                        channel: "Iceblox11"
-                    });
-                </script>
-            </div>
-            </div>
-    </section>
     <hr> <!-- Subsection of the site, displaying where the site is hosted (for now) -->
 
     <section>

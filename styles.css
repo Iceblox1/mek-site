@@ -38,7 +38,9 @@ a:visited {
 section a {
     color: rgb(100, 200, 200);
     text-decoration: none;
-}
+
+
+} 
 
 section a:hover {
     color: rgb(100, 200, 200);
