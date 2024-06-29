@@ -73,11 +73,12 @@ nav li {
 
 .socials {
     background-color: rgb(50, 50, 50);
+    text-align: center;
 }
 
 .socialLinks {
     text-align: center;
-    margin-left: 30%;
+    margin: 0px;
     padding: 2px;
     font-weight: bold;
     text-decoration: none;
