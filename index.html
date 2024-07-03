@@ -32,7 +32,7 @@
             <div class="linkText">
                 <h2> Twitch! </h2>
                 <div class="videoWrapper">
-                    <!-- The code below was taken from https://dev.twitch.tv/docs/embed/everything/ on 6/29/2024-->
+                    <!-- The code below was taken from https://dev.twitch.tv/docs/embed/everything/ and modified on 6/29/2024-->
                     <!-- Add a placeholder for the Twitch embed -->
                     <div id="twitch-embed"></div>
                     
@@ -42,8 +42,8 @@
                     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
                     <script type="text/javascript">
                         new Twitch.Embed("twitch-embed", {
-                            width: 650,
-                            height: 350,
+                            width: 400,
+                            height: 200,
                             layout: "video",
                             channel: "Iceblox11"
                         });
