@@ -71,7 +71,7 @@ nav li {
     text-align: right;
 }
 
-.socials {
+.centerDiv {
     background-color: rgb(50, 50, 50);
     text-align: center;
 }
@@ -89,8 +89,4 @@ nav li {
     background-color: black;
     transform: scale(1.05);
     transition: 0.15s;
-}
-
-.github-card {
-    
 }
