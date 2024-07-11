@@ -8,6 +8,7 @@ h1 {
 
 h2 {
     color: rgb(70, 210, 210);
+    text-align: center;
 }
 
 p {
@@ -89,4 +90,8 @@ nav li {
     background-color: black;
     transform: scale(1.05);
     transition: 0.15s;
+}
+
+.mainContent {
+    background-color: rgb(50, 50, 50)
 }
