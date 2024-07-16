@@ -12,7 +12,8 @@ h2 {
 }
 
 p {
-    color: rgb(60, 185, 160);
+    color: rgb(100, 180, 200);
+    font-size: 200%;
 }
 
 nav ul {
@@ -72,9 +73,8 @@ nav li {
     text-align: right;
 }
 
-.centerDiv {
-    background-color: rgb(50, 50, 50);
-    text-align: center;
+.section {
+    background-color: rgb(40, 40, 40);
 }
 
 .videoWrapper {
@@ -92,6 +92,23 @@ nav li {
     transition: 0.15s;
 }
 
-.mainContent {
-    background-color: rgb(50, 50, 50)
+.homepage {
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    gap: 10px;
+}
+
+.homepageLeft {
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.homepageRight {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 20px;
 }
