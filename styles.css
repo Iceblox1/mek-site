@@ -112,3 +112,9 @@ nav li {
     box-sizing: border-box;
     margin: 20px;
 }
+
+.homepageCenter {
+    display: flex;
+    flex: auto;
+    justify-content: center
+}
