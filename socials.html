@@ -26,29 +26,33 @@
 
     <section class="centerDiv">
         <h2> Youtube! </h2>
-        <div class="videoWrapper">
-            <iframe title="Youtube" src="https://youtube.com/embed?listType=playlist&list=UULFfu9WwjhiTKPWhfN3QetCxw">
-            </iframe>
+            <div class="homepageCenter">
+            <div class="videoWrapper">
+                <iframe title="Youtube" src="https://youtube.com/embed?listType=playlist&list=UULFfu9WwjhiTKPWhfN3QetCxw">
+                </iframe>
+            </div>
         </div>
         <div class="linkText">
             <h2> Twitch! </h2>
-            <div class="videoWrapper">
-                <!-- The code below was taken from https://dev.twitch.tv/docs/embed/everything/ and modified on 6/29/2024-->
-                <!-- Add a placeholder for the Twitch embed -->
-                <div id="twitch-embed"></div>
+            <div class="homepageCenter">
+                <div class="videoWrapper">
+                    <!-- The code below was taken from https://dev.twitch.tv/docs/embed/everything/ and modified on 6/29/2024-->
+                    <!-- Add a placeholder for the Twitch embed -->
+                    <div id="twitch-embed"></div>
 
-                <!-- Load the Twitch embed JavaScript file -->
-                <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                    <!-- Load the Twitch embed JavaScript file -->
+                    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-                <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-                <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                        width: 400,
-                        height: 200,
-                        layout: "video",
-                        channel: "Iceblox11"
-                    });
-                </script>
+                    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+                    <script type="text/javascript">
+                        new Twitch.Embed("twitch-embed", {
+                            width: 400,
+                            height: 200,
+                            layout: "video",
+                            channel: "Iceblox11"
+                        });
+                    </script>
+                </div>
             </div>
         </div>
     </section>
