@@ -25,7 +25,7 @@
     <hr> <!--  Socials Content (yt, twitch, git, etc...) -->
 
     <section class="centerDiv">
-        <h2> Youtube! </h2>
+        <h2> Youtube! </h2> <!-- Youtube video embed -->
             <div class="homepageCenter">
             <div class="videoWrapper">
                 <iframe title="Youtube" src="https://youtube.com/embed?listType=playlist&list=UULFfu9WwjhiTKPWhfN3QetCxw">
@@ -33,17 +33,12 @@
             </div>
         </div>
         <div class="linkText">
-            <h2> Twitch! </h2>
-            <div class="homepageCenter">
+            <h2> Twitch! </h2> <!-- Twitch video embedd -->
+            <div class="homepageLeft">
                 <div class="videoWrapper">
                     <!-- The code below was taken from https://dev.twitch.tv/docs/embed/everything/ and modified on 6/29/2024-->
-                    <!-- Add a placeholder for the Twitch embed -->
                     <div id="twitch-embed"></div>
-
-                    <!-- Load the Twitch embed JavaScript file -->
                     <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-                    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
                     <script type="text/javascript">
                         new Twitch.Embed("twitch-embed", {
                             width: 400,
@@ -52,6 +47,10 @@
                             channel: "Iceblox11"
                         });
                     </script>
+                </div>
+                <div class="homepageRight">
+                    <iframe title="Twitch Chat" src="https://www.twitch.tv/embed/Iceblox11/chat?parent=iceblox1.github.io/mek-site/" height="500" width="300">
+                    </iframe>
                 </div>
             </div>
         </div>
